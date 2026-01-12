@@ -1,0 +1,29 @@
+{
+  "description": "一笔画完微信小程序",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "uglifyFileName": false
+  },
+  "compileType": "game",
+  "libVersion": "3.13.1",
+  "appid": "wx3fec6eb2622b6d34",
+  "projectname": "draw-stroke",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

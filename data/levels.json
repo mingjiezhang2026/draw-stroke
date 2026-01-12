@@ -1,0 +1,748 @@
+[
+  {
+    "levelId": 1,
+    "gridSize": [3, 3],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 0, "y": 1},
+      {"id": 3, "x": 0, "y": 2},
+      {"id": 4, "x": 1, "y": 0},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 1, "y": 2},
+      {"id": 7, "x": 2, "y": 0},
+      {"id": 8, "x": 2, "y": 1},
+      {"id": 9, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 2,
+    "gridSize": [3, 3],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 3,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 0, "y": 2},
+      {"id": 8, "x": 1, "y": 2},
+      {"id": 9, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 4,
+    "gridSize": [3, 3],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 5,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 3, "y": 1},
+      {"id": 9, "x": 1, "y": 2},
+      {"id": 10, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 10, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 6,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 3, "y": 1},
+      {"id": 8, "x": 0, "y": 2},
+      {"id": 9, "x": 1, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 9, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 7,
+    "gridSize": [3, 3],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 0, "y": 2},
+      {"id": 8, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 6, "to": 8, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 8,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 3, "y": 1},
+      {"id": 9, "x": 0, "y": 2},
+      {"id": 10, "x": 1, "y": 2},
+      {"id": 11, "x": 2, "y": 2},
+      {"id": 12, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 10, "bidirectional": true},
+      {"from": 7, "to": 11, "bidirectional": true},
+      {"from": 8, "to": 12, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 9,
+    "gridSize": [3, 3],
+    "startNode": 5,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 0, "y": 2},
+      {"id": 8, "x": 1, "y": 2},
+      {"id": 9, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 10,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 1, "y": 1},
+      {"id": 5, "x": 2, "y": 1},
+      {"id": 6, "x": 0, "y": 2},
+      {"id": 7, "x": 1, "y": 2},
+      {"id": 8, "x": 2, "y": 2},
+      {"id": 9, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 2, "to": 4, "bidirectional": true},
+      {"from": 3, "to": 5, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 1, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 11,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 3, "y": 1},
+      {"id": 8, "x": 1, "y": 2},
+      {"id": 9, "x": 2, "y": 2},
+      {"id": 10, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 10, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 12,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 0, "y": 2},
+      {"id": 9, "x": 1, "y": 2},
+      {"id": 10, "x": 2, "y": 2},
+      {"id": 11, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 10, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 13,
+    "gridSize": [5, 5],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 3, "y": 1},
+      {"id": 8, "x": 0, "y": 2},
+      {"id": 9, "x": 1, "y": 2},
+      {"id": 10, "x": 2, "y": 2},
+      {"id": 11, "x": 3, "y": 2},
+      {"id": 12, "x": 4, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 10, "bidirectional": true},
+      {"from": 7, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 14,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 0, "y": 2},
+      {"id": 9, "x": 1, "y": 2},
+      {"id": 10, "x": 2, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 5, "to": 8, "bidirectional": true},
+      {"from": 6, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 10, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 15,
+    "gridSize": [5, 5],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 4, "y": 0},
+      {"id": 6, "x": 0, "y": 1},
+      {"id": 7, "x": 1, "y": 1},
+      {"id": 8, "x": 2, "y": 1},
+      {"id": 9, "x": 3, "y": 1},
+      {"id": 10, "x": 1, "y": 2},
+      {"id": 11, "x": 2, "y": 2},
+      {"id": 12, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 1, "to": 6, "bidirectional": true},
+      {"from": 2, "to": 7, "bidirectional": true},
+      {"from": 3, "to": 8, "bidirectional": true},
+      {"from": 4, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 7, "to": 10, "bidirectional": true},
+      {"from": 8, "to": 11, "bidirectional": true},
+      {"from": 9, "to": 12, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 16,
+    "gridSize": [4, 4],
+    "startNode": 7,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 3, "y": 1},
+      {"id": 9, "x": 0, "y": 2},
+      {"id": 10, "x": 1, "y": 2},
+      {"id": 11, "x": 2, "y": 2},
+      {"id": 12, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 10, "bidirectional": true},
+      {"from": 7, "to": 11, "bidirectional": true},
+      {"from": 8, "to": 12, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 17,
+    "gridSize": [5, 5],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 0, "y": 1},
+      {"id": 6, "x": 1, "y": 1},
+      {"id": 7, "x": 2, "y": 1},
+      {"id": 8, "x": 3, "y": 1},
+      {"id": 9, "x": 4, "y": 1},
+      {"id": 10, "x": 0, "y": 2},
+      {"id": 11, "x": 1, "y": 2},
+      {"id": 12, "x": 2, "y": 2},
+      {"id": 13, "x": 3, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 1, "to": 5, "bidirectional": true},
+      {"from": 2, "to": 6, "bidirectional": true},
+      {"from": 3, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 10, "bidirectional": true},
+      {"from": 6, "to": 11, "bidirectional": true},
+      {"from": 7, "to": 12, "bidirectional": true},
+      {"from": 8, "to": 13, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true},
+      {"from": 12, "to": 13, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 18,
+    "gridSize": [4, 4],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 0, "y": 1},
+      {"id": 5, "x": 1, "y": 1},
+      {"id": 6, "x": 2, "y": 1},
+      {"id": 7, "x": 3, "y": 1},
+      {"id": 8, "x": 0, "y": 2},
+      {"id": 9, "x": 1, "y": 2},
+      {"id": 10, "x": 2, "y": 2},
+      {"id": 11, "x": 3, "y": 2},
+      {"id": 12, "x": 1, "y": 3},
+      {"id": 13, "x": 2, "y": 3}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 1, "to": 4, "bidirectional": true},
+      {"from": 2, "to": 5, "bidirectional": true},
+      {"from": 3, "to": 6, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 5, "to": 6, "bidirectional": true},
+      {"from": 4, "to": 8, "bidirectional": true},
+      {"from": 5, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 10, "bidirectional": true},
+      {"from": 7, "to": 11, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 9, "to": 12, "bidirectional": true},
+      {"from": 10, "to": 13, "bidirectional": true},
+      {"from": 12, "to": 13, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 19,
+    "gridSize": [5, 5],
+    "startNode": 1,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 4, "y": 0},
+      {"id": 6, "x": 0, "y": 1},
+      {"id": 7, "x": 1, "y": 1},
+      {"id": 8, "x": 2, "y": 1},
+      {"id": 9, "x": 3, "y": 1},
+      {"id": 10, "x": 0, "y": 2},
+      {"id": 11, "x": 1, "y": 2},
+      {"id": 12, "x": 2, "y": 2},
+      {"id": 13, "x": 3, "y": 2},
+      {"id": 14, "x": 4, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 1, "to": 6, "bidirectional": true},
+      {"from": 2, "to": 7, "bidirectional": true},
+      {"from": 3, "to": 8, "bidirectional": true},
+      {"from": 4, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 6, "to": 10, "bidirectional": true},
+      {"from": 7, "to": 11, "bidirectional": true},
+      {"from": 8, "to": 12, "bidirectional": true},
+      {"from": 9, "to": 13, "bidirectional": true},
+      {"from": 13, "to": 14, "bidirectional": true},
+      {"from": 10, "to": 11, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true},
+      {"from": 12, "to": 13, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "rules": {
+      "allowBack": true
+    }
+  },
+  {
+    "levelId": 20,
+    "gridSize": [5, 5],
+    "startNode": 8,
+    "nodes": [
+      {"id": 1, "x": 0, "y": 0},
+      {"id": 2, "x": 1, "y": 0},
+      {"id": 3, "x": 2, "y": 0},
+      {"id": 4, "x": 3, "y": 0},
+      {"id": 5, "x": 4, "y": 0},
+      {"id": 6, "x": 0, "y": 1},
+      {"id": 7, "x": 1, "y": 1},
+      {"id": 8, "x": 2, "y": 1},
+      {"id": 9, "x": 3, "y": 1},
+      {"id": 10, "x": 4, "y": 1},
+      {"id": 11, "x": 0, "y": 2},
+      {"id": 12, "x": 1, "y": 2},
+      {"id": 13, "x": 2, "y": 2},
+      {"id": 14, "x": 3, "y": 2},
+      {"id": 15, "x": 4, "y": 2}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "bidirectional": true},
+      {"from": 2, "to": 3, "bidirectional": true},
+      {"from": 3, "to": 4, "bidirectional": true},
+      {"from": 4, "to": 5, "bidirectional": true},
+      {"from": 1, "to": 6, "bidirectional": true},
+      {"from": 2, "to": 7, "bidirectional": true},
+      {"from": 3, "to": 8, "bidirectional": true},
+      {"from": 4, "to": 9, "bidirectional": true},
+      {"from": 5, "to": 10, "bidirectional": true},
+      {"from": 6, "to": 7, "bidirectional": true},
+      {"from": 7, "to": 8, "bidirectional": true},
+      {"from": 8, "to": 9, "bidirectional": true},
+      {"from": 9, "to": 10, "bidirectional": true},
+      {"from": 6, "to": 11, "bidirectional": true},
+      {"from": 7, "to": 12, "bidirectional": true},
+      {"from": 8, "to": 13, "bidirectional": true},
+      {"from": 9, "to": 14, "bidirectional": true},
+      {"from": 10, "to": 15, "bidirectional": true},
+      {"from": 11, "to": 12, "bidirectional": true},
+      {"from": 12, "to": 13, "bidirectional": true},
+      {"from": 13, "to": 14, "bidirectional": true},
+      {"from": 14, "to": 15, "bidirectional": true}
+    ],
+    "targetNodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "rules": {
+      "allowBack": true
+    }
+  }
+]
+
